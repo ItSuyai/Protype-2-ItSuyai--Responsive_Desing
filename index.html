@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>ItSuyai</title>
+	<link rel="icon" href="img/icon.ico">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/633f603d95.js" crossorigin="anonymous"></script>
+	<meta name="author" content="Suyai">
+</head>
+<body>
+	<header class="section--navigation">
+		<section class="navigation">
+			<a href="" class="logo"><img src="img/logo.png"></a>
+			<div class="navigation__bar">
+				<a href="">ES</a>
+				<div class="btn-menu">
+					<label for="btn-menu"><i class="fa-solid fa-bars"></i></label>
+				</div>
+			</div>
+		</section>
+
+		<!--<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-brands fa-github"></i> -->
+
+	</header>
+	<input type="checkbox" id="btn-menu">
+		<div class="container-menu">
+			<div class="card--menu">
+				<nav>
+					<a href="#about">Sobre Mi</a>
+					<a href="#skills">Habilidades</a>
+					<a href="#plans">Futuros Planes</a>
+					<a href="#project">Proyectos</a>
+					<a href="#contact">Contactame</a>
+				</nav>
+				<label for="btn-menu"><i class="fa-solid fa-xmark"></i></label>
+			</div>
+		</div>
+		<section class="content">
+		<div class="about" id="about">
+			<h2>Sobre <span>mi ()</span></h2>
+			<p>Soy un joven progamador nuevo que se esta intentando abrir un hueco en el mundo de la progamacion, 
+				actualmente no tengo una experencia de años gracias a que empeze este enero del 2022, inicie con codigo basico 
+				de C# pero eventualmente lo deje para aprender a desarollar webs y empezar en este mundo del codigo definitivamente. 
+				Mi nombre es Sarmiento Bunimov o mejor Suyai y aqui les dejo mi portafolio.
+			</p>
+			<div class="guia">
+				<div class="guia__content">
+					<ul>
+						<li>
+							<a href="#skills"><i class="fa-solid fa-arrow-down"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="title__skills" id="skills">
+			<h2>#Habilidades <span>{</span></h2>
+		</div>
+			<article class="conteiner--skills">
+				<div class="card__skills">
+					<h2 class="card__skills-title">Mis Habilidades_</h2>
+					<div class="skills">
+						<div contenteditable="skills__item">
+							<p class="skills__tech">HTML</p>
+							<div class="skills__bar skills__bar--100"></div>
+							<p class="skills__tech">CSS</p>
+							<div class="skills__bar skills__bar--90"></div>
+							<p class="skills__tech">JavaScript</p>
+							<div class="skills__bar skills__bar--20"></div>
+						</div>
+					</div>
+				</div>
+			</article>
+		<div class="end__skills">
+			<h2>}</h2>
+		</div>
+		<div class="title__plans" id="plans">
+			<h2><span>var</span> Futuros Planes <span>=</span></h2>
+		</div>
+		<article class="conteiner--plans">
+			<div class="card__plans" id="plan1">
+				<h5>React JS</h5>
+				<p>React JS es mi proximo objetivo para mejor mi parte Front-end este 2022 estimo que empezare en septiembre.</p>
+			</div>
+			<div class="card__plans" id="plan2">
+				<h5>Bootstrap</h5>
+				<p>Tengo muchas ganas de aprender esta libreria junto a React JS y estare empezando al acabar React estimo que a finales de septiembre.</p>
+			</div>
+			<div class="card__plans" id="plan3">
+				<h5>Node JS</h5>
+				<p>Node JS sera mi primer paso real para el lado Back-end de la progamacion y empezar con ese mundo de una vez, no tengo fijado una fecha para empezar.</p>
+			</div>
+		</article>
+		<div class="title__project" id="project">
+			<h2><span>C:/</span>Proyectos<span>></span></h2>
+		</div>
+			<article class="conteiner--project">
+				<div class="card__project" id="project1">
+					<div class="project__item">
+						<h2>ItSuyai</h2>
+						<a href="">WEB</a>
+						<a href="">Codigo</a>
+					</div>
+				</div>
+				<div class="card__project">
+					<h3>Proximamente</h3>
+				</div>
+				<div class="card__project">
+					<h3>Proximamente</h3>
+				</div>
+				<div class="card__project">
+					<h3>Proximamente</h3>
+				</div>
+				<div class="card__project">
+					<h3>Proximamente</h3>
+				</div>
+				<div class="card__project">
+					<h3>Proximamente</h3>
+				</div>
+			</article>
+		<div class="title__contact" id="contact">
+			<h2><span>(</span>Contactame<span>);</span></h2>
+		</div>
+		<form action="#" autocomplete="off" class="form">
+			<input type="email" name="email" placeholder="Email" class="email">
+			<input type="text" name="subject" placeholder="Asunto" class="subject">
+			<textarea name="message" placeholder="Mensaje"></textarea>
+			<div class="send"><input type="submit" name="send" value="Enviar"></div>
+		</form>
+		<div class="space"></div>
+		</section>
+	<script src="script.js"></script>
+</body>
+</html>
